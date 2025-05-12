@@ -61,7 +61,3 @@ Cada alumno debe trabajar únicamente dentro de su propia carpeta.
 - ❗ **No modificar ni borrar carpetas o archivos de otros compañeros.**
 - ✅ Trabaja solo en tu carpeta.
 - ✅ Usa `git pull` frecuentemente para mantener tu copia sincronizada con el repositorio.
-
----
-
-¡Mucho éxito aprendiendo Python! 🚀
