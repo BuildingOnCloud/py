@@ -1,5 +1,9 @@
-# Python1
-Repo para Curso Fundamentos de Python
+# Curso de Python Básico 🐍
 
-Lista de Alumnos:
-- Jesus Ruiz 
+Bienvenidos al repositorio del curso **Python Básico**, dictado por **Jesus Ruiz**.  
+Aquí cada alumno podrá subir sus ejercicios de forma organizada.
+
+---
+
+## 📦 Estructura del repositorio
+
