@@ -10,6 +10,7 @@ Lista de Alumnos:
 - Abixai Martinez
 - Antonio Hernandez U.
 - Alfonso De Caro
+- Jose Roa
 
 ---
 
