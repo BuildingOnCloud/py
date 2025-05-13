@@ -7,6 +7,7 @@ Aquí cada alumno podrá subir sus ejercicios de forma organizada.
 
 Lista de Alumnos:
 - Jesus Ruiz
+- Abixai Martinez
 
 ---
 
