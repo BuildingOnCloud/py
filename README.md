@@ -13,6 +13,7 @@ Lista de Alumnos:
 - Jose Roa
 - Eluis Barreto
 - Starcky Molina
+- Aaron Vasquez
 
 ---
 
