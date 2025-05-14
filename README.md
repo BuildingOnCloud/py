@@ -11,6 +11,7 @@ Lista de Alumnos:
 - Antonio Hernandez U.
 - Alfonso De Caro
 - Jose Roa
+- Eluis Barreto
 
 ---
 
