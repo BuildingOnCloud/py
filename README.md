@@ -16,6 +16,7 @@ Lista de Alumnos:
 - Aaron Vasquez
 - Marcos Manzur
 - Oscar Borjas
+- Raul S.
 ---
 
 ## 📦 Estructura del repositorio
