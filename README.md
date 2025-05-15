@@ -14,6 +14,7 @@ Lista de Alumnos:
 - Eluis Barreto
 - Starcky Molina
 - Aaron Vasquez
+- Marcos Manzur
 
 ---
 
