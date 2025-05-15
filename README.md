@@ -15,7 +15,7 @@ Lista de Alumnos:
 - Starcky Molina
 - Aaron Vasquez
 - Marcos Manzur
-
+- Oscar Borjas
 ---
 
 ## 📦 Estructura del repositorio
