@@ -17,6 +17,7 @@ Lista de Alumnos:
 - Marcos Manzur
 - Oscar Borjas
 - Raul S.
+- Andrés Morales
 ---
 
 ## 📦 Estructura del repositorio
