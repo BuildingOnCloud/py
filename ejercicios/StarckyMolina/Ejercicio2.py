@@ -17,7 +17,7 @@ print("articulo 3: " articulo3 "precio: " precio3 )
 
 #Opcion 2
 for x in range(1..3):
-		print("articulo "x": " articulo1 "precio "x": " precio1 )
+    print("articulo "x": " articulo1 "precio "x": " precio1 )
 
 
 
