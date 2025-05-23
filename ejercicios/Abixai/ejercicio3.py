@@ -26,20 +26,18 @@ if operacion  == "1" :
 
 elif  operacion  == "2" :
 
-    resultado = valor1 - valor2
+    resultado = valor1-valor2
     print(f"Su resultado es: {resultado}")
 
 elif  operacion  == "3" :
 
-    resultado = valor1 * valor2
+    resultado = valor1*valor2
     print(f"Su resultado es: {resultado}")
 
 elif  operacion  == "4" :
 
-    resultado = valor1 / valor2
+    resultado = valor1/valor2
     print(f"Su resultado es: {resultado}")
 
 else :
     print("Operación no válida")
-
-6
