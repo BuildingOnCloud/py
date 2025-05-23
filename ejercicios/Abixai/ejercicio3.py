@@ -24,7 +24,7 @@ print("Selecciona la operación a realizar")
 
 print("1. Suma (+)")
 print("2. Resta (-)")
-print("3. Multiplicación (*)")
+print("3. Multiplicación (*)") 
 print("4. División (/)")
 
 operacion = input("Mi operación es: ")
