@@ -13,8 +13,9 @@
 
 
 password = str(input("Ingrese su contraseña"))
-
 longitudPassword = len(password)
+
+caracterEsp = "!@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,."
 
 if longitudPassword >= 8:
     minusc = any(caracter.islower() for caracter in password)
@@ -22,13 +23,19 @@ if longitudPassword >= 8:
         mayusc = any(caracter.isupper() for caracter in password)
         if mayusc:
             numero = any(caracter.isdigit() for caracter in password)
-                if numero:
-                    
+            if numero:
+                #caracterEspSeparados = list(caracterEsp)
+                caracterEncontrado = any(caracter in caracterEsp for caracter in password)
+                if caracterEncontrado:
+                    print("contraseña esta correcta")
                 else:
-                    print("contraseña no cumple con los requisitos")
+                    print("contraseña no cumple con los requisitos de tener al menos un caracter especial de estos !@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,. ")  
+                
+            else:
+                print("contraseña no cumple con los requisitos de tener al menos un numero")
         else:
-            print("contraseña no cumple con los requisitos")
+            print("contraseña no cumple con los requisitos de tener al menos una mayuscula")
     else:
-        print("contraseña no cumple con los requisitos")
+        print("contraseña no cumple con los requisitos de tener al menos una letra minuscula")
 else:
-    print("contraseña no cumple con los requisitos")
+    print("contraseña no cumple con los requisitos de al menor tener 8 caracteres")
