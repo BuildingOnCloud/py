@@ -11,31 +11,31 @@
 
 # "!@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,." caracteres
 
+while True:
+    password = str(input("Ingrese su contraseña"))
+    longitudPassword = len(password)
 
-password = str(input("Ingrese su contraseña"))
-longitudPassword = len(password)
+    caracterEsp = "!@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,."
 
-caracterEsp = "!@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,."
-
-if longitudPassword >= 8:
-    minusc = any(caracter.islower() for caracter in password)
-    if minusc:
-        mayusc = any(caracter.isupper() for caracter in password)
-        if mayusc:
-            numero = any(caracter.isdigit() for caracter in password)
-            if numero:
-                #caracterEspSeparados = list(caracterEsp)
-                caracterEncontrado = any(caracter in caracterEsp for caracter in password)
-                if caracterEncontrado:
-                    print("contraseña esta correcta")
+    if longitudPassword >= 8:
+        minusc = any(caracter.islower() for caracter in password)
+        if minusc:
+            mayusc = any(caracter.isupper() for caracter in password)
+            if mayusc:
+                numero = any(caracter.isdigit() for caracter in password)
+                if numero:
+                    #caracterEspSeparados = list(caracterEsp)
+                    caracterEncontrado = any(caracter in caracterEsp for caracter in password)
+                    if caracterEncontrado:
+                        print("La contraseña esta correcta")
+                        break
+                    else:
+                        print("contraseña no cumple con los requisitos de tener al menos un caracter especial de estos !@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,. ")  
                 else:
-                    print("contraseña no cumple con los requisitos de tener al menos un caracter especial de estos !@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,. ")  
-                
+                    print("contraseña no cumple con los requisitos de tener al menos un numero")
             else:
-                print("contraseña no cumple con los requisitos de tener al menos un numero")
+                print("contraseña no cumple con los requisitos de tener al menos una mayuscula")
         else:
-            print("contraseña no cumple con los requisitos de tener al menos una mayuscula")
+            print("contraseña no cumple con los requisitos de tener al menos una letra minuscula")
     else:
-        print("contraseña no cumple con los requisitos de tener al menos una letra minuscula")
-else:
-    print("contraseña no cumple con los requisitos de al menor tener 8 caracteres")
+        print("contraseña no cumple con los requisitos de al menor tener 8 caracteres")
