@@ -12,23 +12,22 @@
 # "!@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,." caracteres
 
 
-password = str(input("Ingrese su contraseña"))
+password = input("Ingrese su contraseña: ")
 
-longitudPassword = len(password)
+longitud = len(password)
+symb = "!@#$%^&*()_-+=<>?/{}[]|\\:;\\'`~,."
+if longitud>=8:
+    minus = any(caracter.islower() for caracter in password)
+    mayus = any(caracter.isupper() for caracter in password)
+    numero = any(caracter.isdigit() for caracter in password)
+    
 
-if longitudPassword >= 8:
-    minusc = any(caracter.islower() for caracter in password)
-if minusc:
-        mayusc = any(caracter.isupper() for caracter in password)
-if mayusc:
-            numero = any(caracter.isdigit() for caracter in password)
-if numero:
-                    
+    if minus == True and mayus == True and numero == True:
+        for caracter in password:
+            if caracter in symb:
+                print('La contrasena cumple con los requisitos')
+                break
+    else:
+        print('Error: Contrasena no cumple los requisitos') 
 else:
-                    print("contraseña no cumple con los requisitos")
-else:
-            print("contraseña no cumple con los requisitos")
-else:
-        print("contraseña no cumple con los requisitos")
-else:
-    print("contraseña no cumple con los requisitos")
+    print('Error: Contrasena no cumple los requisitos') 
