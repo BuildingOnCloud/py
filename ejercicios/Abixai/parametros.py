@@ -1,5 +1,3 @@
-#Modulo para calcular operaciones matematicas basicas
-
 def suma(a, b):
     return a + b
 
