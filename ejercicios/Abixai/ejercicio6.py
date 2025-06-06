@@ -68,7 +68,7 @@ while True:
             print("Hasta Luego.")
             break
 
-        else:   # Opcion de Menu No Valida
+        else: 
 
             print("\nOpción no válida. Por favor, elija un numero dentro del menu.")
 
